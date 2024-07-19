@@ -20,11 +20,11 @@ const MobileFooter = () => {
       justify-between
       w-full
       bottom-0
-      gap-x-40
+      z-40
       flex
       items-center
       bg-white
-      border0t-[1px]
+      border-t-[1px]
       lg:hidden
       "
     >
@@ -35,7 +35,7 @@ const MobileFooter = () => {
           active={route.active}
           icon={route.icon}
           onClick={route.onClick}
-          />
+        />
       ))}
     </div>
   )
