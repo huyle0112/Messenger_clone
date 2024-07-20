@@ -43,7 +43,6 @@ const AuthForm = () => {
       formState: {
         errors
       }
-
     } = useForm<FieldValues>({
       defaultValues: {
         name: '',

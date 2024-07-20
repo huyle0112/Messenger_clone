@@ -1,6 +1,6 @@
 import React from "react";
 import Sidebar from "../components/sidebar/Sidebar";
-import ConversationsList from "./components/ConversationsList";
+import ConversationsList from "./components/ConversationList";
 import getConversations from "../actions/getConversations";
 import getUsers from "../actions/getUsers";
 

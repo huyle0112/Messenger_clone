@@ -10,7 +10,7 @@ const inter = Inter({ subsets: ["latin"] })
 
 export const metadata = { 
   title: "Huy's Messenger",
-  description: "Best messenger ever",
+  description: "",
 }
 
 export default function RootLayout({
